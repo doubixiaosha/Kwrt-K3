@@ -364,7 +364,7 @@ jobs:
       continue-on-error: true
       with:
         token: ${{ secrets.TOKEN_KIDDIN9 }}
-        retain_days: 100
+        retain_days: 5
         keep_minimum_runs: 0
 
     - name: Remove old Releases
